@@ -9,6 +9,14 @@ a {
 		@apply bg-brandLight text-white !important;
 	}
 
+	&.btn-outline {
+		@apply bg-transparent border-[3px] border-brandCyan text-brandCyan hover:bg-brandLight hover:bg-opacity-15 !important;
+
+		&.white {
+			@apply border-white text-white !important;
+		}
+	}
+
 	&:active {
 		@apply scale-95;
 	}
