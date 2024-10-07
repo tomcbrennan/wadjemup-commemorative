@@ -642,14 +642,14 @@ video {
   grid-column: span 1 / span 1;
 }
 
-.my-auto {
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .mt-4 {
@@ -725,10 +725,6 @@ video {
   gap: 3.5rem;
 }
 
-.gap-3 {
-  gap: 0.75rem;
-}
-
 .gap-4 {
   gap: 1rem;
 }
@@ -763,11 +759,6 @@ video {
 .bg-brandCyan {
   --tw-bg-opacity: 1;
   background-color: rgb(0 77 102 / var(--tw-bg-opacity));
-}
-
-.bg-brandDark {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 48 61 / var(--tw-bg-opacity));
 }
 
 .bg-brandLight {
@@ -828,10 +819,6 @@ video {
   text-align: center;
 }
 
-.font-bold {
-  font-family: BentonSans-Bold, sans-serif;
-}
-
 .font-light {
   font-family: BentonSans-Light, sans-serif;
 }
@@ -839,10 +826,6 @@ video {
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
-}
-
-.font-bold {
-  font-weight: 700;
 }
 
 .font-light {
