@@ -725,6 +725,10 @@ video {
   gap: 3.5rem;
 }
 
+.gap-2 {
+  gap: 0.5rem;
+}
+
 .gap-4 {
   gap: 1rem;
 }
@@ -735,6 +739,10 @@ video {
 
 .gap-8 {
   gap: 2rem;
+}
+
+.gap-1\.5 {
+  gap: 0.375rem;
 }
 
 .space-y-1 > :not([hidden]) ~ :not([hidden]) {
@@ -819,8 +827,16 @@ video {
   text-align: center;
 }
 
+.font-bold {
+  font-family: BentonSans-Bold, sans-serif;
+}
+
 .font-light {
   font-family: BentonSans-Light, sans-serif;
+}
+
+.font-medium {
+  font-family: BentonSans-Medium, sans-serif;
 }
 
 .text-base {
@@ -828,8 +844,16 @@ video {
   line-height: 1.5rem;
 }
 
+.font-bold {
+  font-weight: 700;
+}
+
 .font-light {
   font-weight: 300;
+}
+
+.font-medium {
+  font-weight: 500;
 }
 
 .italic {
